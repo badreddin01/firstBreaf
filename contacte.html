@@ -21,28 +21,51 @@
       </nav>
     </div>
   </header>
+  <h1>entrez votre information</h1>
 
-  <!-- <section>
-    <div>
-        <h1>notre reseau socianu</h1>
-        <pre><img src="img/logo insta.png" alt="instagrame ">@Élan Fitness</pre>
-        
-    </div>
-  </section> -->
-  <section>
-    <form action="">
-        <div>
+  <section id="contact" class="section">
+    <form action="" >
+        <div class="case">
             <label for="fName">first name</label>
-            <input type="text" id="fName" required>
+            <input type="text" id="fName" required placeholder="Name">
             <label for="LName">last name</label>
-            <input type="text" id="LName" required>
+            <input type="text" id="LName" required placeholder="lastname">
         </div>
-        <br>
-        <div>
+      
+        <div class="case">
             <label for="email">email</label>
-            <input type="email" id="email" required >
+            <input type="email" id="email" required placeholder="email" >
             <label for="telephone">téléphone</label>
-            <input type="tel" id="telephone" required>
+            <input type="tel" id="telephone" required placeholder="teleohone ">
+        </div>
+        
+        <div class="case">
+          <label for="age">age</label>
+          <input type="number" id="age" min="10" placeholder="age">
+        </div>
+        
+        <div class="case">
+          <p><strong>Nos programmes</strong></p>
+            <div >
+              <div class="box">
+                  <input type="checkbox" name="programmes" id="programmes">
+                  <label for="programmes">Musculation</label>
+              </div>
+
+          <div class="box">
+            <input type="checkbox" name="programmes" id="Yoga">
+            <label for="Yoga">Yoga</label>
+          </div>
+          <div class="box">
+            <input type="checkbox" name="programmes" id="Cardio">
+            <label for="Cardio">Cardio training</label>
+        </div>
+          
+        </div>
+
+        </div>
+        <div class="envoi">
+          <button type="submit">envoyez</button>
         </div>
     </form>
   </section>
@@ -63,6 +86,8 @@
             <li><a href="#accueil">Accueil</a></li>
             <li><a href="#a-propos">À propos</a></li>
             <li><a href="#programmes">Programmes</a></li>
+            <li><a href="contacte.html" >Contactez-Nous</a></li>
+
           </ul>
         </nav>
       </div>

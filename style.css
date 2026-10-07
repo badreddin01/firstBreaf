@@ -545,3 +545,73 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+h1{
+        text-align: center;
+      }
+      #contact{
+        display: flex;
+        justify-content: center;
+      }
+      input {
+        font-size: 15px;
+        background-color: rgb(255, 255, 255);
+        border-color: #000000;
+        border-radius: 5cm;
+        height: 30px;
+        padding: 3px 10px;
+        border: none;
+        outline: none;
+      }
+
+      input:focus{
+        border: 2px solid #3B4953;
+      }
+
+      label{
+        color: #fefbf8;
+        font-weight: 600;
+
+      }
+      .envoi{
+        color: black;
+        background-color: #ffffff;
+      }
+
+      form{
+        background-color: #d78e4e;
+        width: 500px;
+        padding: 20px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+    .case {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .box {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .envoi {
+      display: flex;
+      justify-content: center;
+      background-color: #d78e4e;
+    }
+
+    .envoi button{
+      background: #3B4953;
+      border-radius: 5cm;
+      padding: 3px 10px;
+      border: none;
+    }
+    .envoi button:focus{
+        border: 2px solid #3B4953;
+      }
+
+      
